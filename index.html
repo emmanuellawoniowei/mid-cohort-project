@@ -1,11 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Sound Effect Library</title>
 </head>
-<body>
-    
+
+<body class="font-[Poppins]">
+
+    <header
+        class="h-[650px] xl:h-[590px] bg-[url('/assets/images/header-bg.png')] bg-cover bg-center flex flex-col justify-start items-center px-[16px] pt-[11px] md:px-[60px] xl:px-[100px]">
+
+        <div class="flex flex-row justify-between items-center w-full py-[16px]">
+            <img src="./assets/icons/logo-nav.svg" alt="Brand Logo" class="w-[123px] h-[40px]">
+
+            <div class="flex flex-col items-center justify-center xl:hidden">
+                <img src="./assets/icons/Frame 81.svg" alt="Menu Icon" class="size-[48px]">
+            </div>
+
+            <div class="hidden md:hidden xl:flex xl:flex-row xl:justify-center xl:items-center xl:gap-[36px]">
+                <a href="#"
+                    class="xl:text-[#FFFFFF] xl:text-center xl:text-[16px] xl:font-medium xl:transition-colors xl:duration-200 xl:hover:text-[#0432DF]">
+                    Home
+                </a>
+
+                <a href="#"
+                    class="xl:text-[#FFFFFF]/60 xl:text-center xl:text-[16px] xl:font-medium xl:transition-colors xl:duration-200 xl:hover:text-[#0432DF]">
+                    Best for Youtube
+                </a>
+
+                <a href="#"
+                    class="xl:text-[#FFFFFF]/60 xl:text-center xl:text-[16px] xl:font-medium xl:transition-colors xl:duration-200 xl:hover:text-[#0432DF]">
+                    Category
+                </a>
+
+                <a href="#"
+                    class="xl:text-[#FFFFFF]/60 xl:text-center xl:text-[16px] xl:font-medium xl:transition-colors xl:duration-200 xl:hover:text-[#0432DF]">
+                    Upgrade
+                </a>
+
+                <a href="#"
+                    class="xl:text-[#FFFFFF]/60 xl:text-center xl:text-[16px] xl:font-medium xl:transition-colors xl:duration-200 xl:hover:text-[#0432DF]">
+                    FAQ
+                </a>
+
+                <button type="button"
+                    class="xl:flex xl:flex-col xl:justify-center xl:items-center xl:bg-[#0432DF] xl:rounded-[8px] xl:w-[78px] xl:h-[44px] xl:text-[#FFFFFF] xl:text-center xl:text-[16px] xl:font-semibold xl:transition-all xl:duration-200 xl:hover:bg-[#0228b8] xl:hover:shadow-lg">
+                    <a href="#">
+                        Login
+                    </a>
+                </button>
+            </div>
+        </div>
+
+        <div class="bg-[#FFFFFF]/10 h-[2px] w-screen"></div>
+
+        <div class="flex flex-col justify-center items-center gap-[16px] my-[56px] xl:mt-[90px] xl:mb-[50px]">
+            <h1 class="text-[#EEEEEE] text-[24px]/9 md:text-[36px]/12 xl:text-[40px] text-center font-bold">
+                Free download sound effects without copyright
+            </h1>
+
+            <p
+                class="text-[#ACAFB8] text-[19px] md:text-[21px] xl:text-[22px] md:w-[490px] xl:w-full font-medium text-center">
+                Download free copyright sound effect for your YouTube video and any use.
+            </p>
+        </div>
+
+        <div
+            class="bg-[#EEEEEE] w-full h-[44px] md:w-[600px] md:h-[60px] xl:w-[600px] xl:h-[60px] flex flex-row justify-center items-center gap-[10px] rounded-[8px] py-[30px] px-[20px] transition-all duration-200 focus-within:ring-2 focus-within:ring-[#00D4FF] focus-within:bg-white">
+            <img src="./assets/icons/search-icon.svg" alt="Search Icon" class="size-[24px]">
+            <input type="search" placeholder="Search sound effects"
+                class="w-full bg-transparent outline-none border-none text-[#4C526A] text-[18px] placeholder:text-[#4C526A] placeholder:text-[18px]">
+        </div>
+
+        <p class="text-[#EEEEEE] font-regular text-[14px]/5 text-center mt-[10px]">
+            Try keyword: happy, funny, natural, horror, jumpscare and more
+        </p>
+
+        <p class="text-[#EEEEEE] font-medium text-[15px] text-center mt-[50px]">
+            650,000 Available Sounds. Library Updated Weekly.
+            <a href="#" class="underline">
+                See popular sounds
+            </a>
+        </p>
+    </header>
+
+    <section
+        class="flex flex-col justify-center items-center gap-[30px] mx-[17px] md:mx-[67px] xl:mx-[104px] mt-[30px] md:mt-[40px] xl:mt-[50px]">
+        <h1 class="text-[#020D37] text-center text-[20px] md:text-[22px] xl:text-[24px] font-semibold">
+            Trusted by top Youtuber and Production House
+        </h1>
+
+        <div class="w-full flex flex-row items-center justify-center flex-wrap md:flex-nowrap md:justify-center xl:justify-between gap-[30px] md:gap-[21px] xl:gap-[89px]">
+            <img src="./assets/icons/dudeperfect 1.svg" alt="Logo">
+            <img src="./assets/icons/Pewdiepie-logo 1.svg" alt="Logo">
+            <img src="./assets/icons/MrBeast 1.svg" alt="Logo">
+            <img src="./assets/icons/wb-removebg-preview 1.svg" alt="Logo">
+            <img src="./assets/icons/netflix 1.svg" alt="Logo">
+            <img src="./assets/icons/pixar-removebg-preview 1.svg" alt="Logo">
+            <img src="./assets/icons/picky picks.svg" alt="Logo">
+        </div>
+    </section>
+
+    <section>
+        <h1>
+            Best sound effects for youtube videos
+        </h1>
+
+        <div>
+            <div>
+                <h5>
+                    All
+                </h5>
+
+                <h5>
+                    Jumpscare
+                </h5>
+
+                <h5>
+                    Mellow
+                </h5>
+
+                <h5>
+                    Happiness
+                </h5>
+
+                <h5>
+                    Ambience
+                </h5>
+
+                <h5>
+                    Zonk
+                </h5>
+            </div>
+
+            <div>
+                <p>
+                    Filter
+                </p>
+                <img src="./assets/icons/icon.svg" alt="Filter">
+            </div>
+        </div>
+
+        <div>
+            <div>
+                
+            </div>
+        </div>
+
+        <p>
+            See all sound effects
+        </p>
+    </section>
+
 </body>
+
 </html>
