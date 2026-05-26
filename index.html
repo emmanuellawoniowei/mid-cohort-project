@@ -13,7 +13,7 @@
     <title>Sound Effect Library</title>
 </head>
 
-<body class="font-[Poppins]">
+<body class="font-[Poppins] overflow-x-hidden">
 
     <header
         class="h-[650px] xl:h-[590px] bg-[url('/assets/images/header-bg.png')] bg-cover bg-center flex flex-col justify-start items-center px-[16px] pt-[11px] md:px-[60px] xl:px-[100px]">
@@ -112,53 +112,57 @@
 
     <section
         class="flex flex-col justify-center items-start gap-[15px] my-[50px] mx-[17px] md:my-[50px] md:mx-[60px] xl:my-[80px] xl:mx-[100px]">
-        <h1 class="w-[286px] font-bold text-[#020D37] text-left text-[20px] md:text-[24px] xl:text-[28px]">
+        <h1 class="w-[286px] md:w-full font-bold text-[#020D37] text-left text-[20px] md:text-[24px] xl:text-[28px]">
             Best sound effects for youtube videos
         </h1>
 
         <div class="w-full flex flex-row justify-between items-center">
             <div class="flex flex-row justify-center items-center gap-[12px]">
-                <h5 class="font-medium text-[14px] text-[#020D37]">
+                <button type="button" class="font-medium text-[14px] xl:text-[16px] text-[#020D37] cursor-pointer">
                     All
                     <div class="w-[17px] h-[2px] bg-[#020D37]"></div>
-                </h5>
+                </button>
 
-                <h5 class="font-medium text-[14px] text-[#4C526A]">
+                <button type="button" class="font-medium text-[14px] xl:text-[16px] text-[#4C526A] cursor-pointer">
                     Jumpscare
-                </h5>
+                </button>
 
-                <h5 class="font-medium text-[14px] text-[#4C526A]">
+                <button type="button" class="font-medium text-[14px] xl:text-[16px] text-[#4C526A] cursor-pointer">
                     Mellow
-                </h5>
+                </button>
 
-                <h5 class="hidden md:flex font-medium text-[14px] text-[#4C526A]">
+                <button type="button"
+                    class="hidden md:flex font-medium text-[14px] xl:text-[16px] cursor-pointer text-[#4C526A]">
                     Happiness
-                </h5>
+                </button>
 
-                <h5 class="hidden md:flex font-medium text-[14px] text-[#4C526A]">
+                <button type="button"
+                    class="hidden md:flex font-medium text-[14px] xl:text-[16px] cursor-pointer text-[#4C526A]">
                     Ambience
-                </h5>
+                </button>
 
-                <h5 class="hidden md:flex font-medium text-[14px] text-[#4C526A]">
+                <button type="button"
+                    class="hidden md:flex font-medium text-[14px] xl:text-[16px] cursor-pointer text-[#4C526A]">
                     Zonk
-                </h5>
+                </button>
             </div>
 
-            <div class="size-[36px] bg-[#F1F1F1] rounded-[4px] flex flex-col items-center justify-center">
-                <p class="hidden md:flex">
+            <button type="button"
+                class="size-[36px] md:w-[120px] md:h-[43px] md:px-[25px] md:py-[2px] bg-[#F1F1F1] rounded-[4px] flex flex-row items-center justify-center gap-[16px] cursor-pointer">
+                <p class="hidden md:flex md:text-[#4C526A] font-medium text-[14.5px]">
                     Filter
                 </p>
                 <img src="./assets/icons/icon.svg" alt="Filter" class="w-[54px] h-[36px]">
-            </div>
+            </button>
         </div>
 
         <div class="flex flex-col justify-center items-center gap-[10px] w-full">
             <div class="flex flex-row items-center justify-between gap-[20px] w-full">
                 <div class="flex flex-row justify-center items-center gap-[16px]">
-                    <img src="./assets/icons/Group 1.svg" alt="Play button" class="size-[34px]">
+                    <img src="./assets/icons/Group 1.svg" alt="Play button" class="size-[34px] cursor-pointer">
 
                     <div class="flex flex-col items-start justify-center gap-[2px]">
-                        <h5 class="text-[#020D37] font-medium text-[14px]">
+                        <h5 class="text-[#020D37] font-medium text-[14px] xl:text-[16px]">
                             Sound Name
                         </h5>
 
@@ -177,20 +181,20 @@
                 </p>
 
                 <div class="flex flex-row items-center justify-center gap-[10px]">
-                    <img src="./assets/icons/icon (1).svg" class="hidden md:flex">
-                    <img src="./assets/icons/icon (2).svg">
-                    <img src="./assets/icons/icon (3).svg">
+                    <img src="./assets/icons/icon (1).svg" class="hidden md:flex cursor-pointer">
+                    <img src="./assets/icons/icon (2).svg" class="cursor-pointer">
+                    <img src="./assets/icons/icon (3).svg" class="cursor-pointer">
                 </div>
             </div>
 
-            <div class="bg-[#EEEEEE] h-[1px] w-[648px]"></div>
+            <div class="bg-[#EEEEEE] h-[1px] w-full"></div>
 
             <div class="flex flex-row items-center justify-between gap-[20px] w-full">
                 <div class="flex flex-row justify-center items-center gap-[16px]">
-                    <img src="./assets/icons/Group 1.svg" alt="Play button" class="size-[34px]">
+                    <img src="./assets/icons/Group 1.svg" alt="Play button" class="size-[34px] cursor-pointer">
 
                     <div class="flex flex-col items-start justify-center gap-[2px]">
-                        <h5 class="text-[#020D37] font-medium text-[14px]">
+                        <h5 class="text-[#020D37] font-medium text-[14px] xl:text-[16px]">
                             Sound Name
                         </h5>
 
@@ -209,20 +213,20 @@
                 </p>
 
                 <div class="flex flex-row items-center justify-center gap-[10px]">
-                    <img src="./assets/icons/icon (1).svg" class="hidden md:flex">
-                    <img src="./assets/icons/icon (2).svg">
-                    <img src="./assets/icons/icon (3).svg">
+                    <img src="./assets/icons/icon (1).svg" class="hidden md:flex cursor-pointer">
+                    <img src="./assets/icons/icon (2).svg" class="cursor-pointer">
+                    <img src="./assets/icons/icon (3).svg" class="cursor-pointer">
                 </div>
             </div>
 
-            <div class="bg-[#EEEEEE] h-[1px] w-[648px]"></div>
+            <div class="bg-[#EEEEEE] h-[1px] w-full"></div>
 
             <div class="flex flex-row items-center justify-between gap-[20px] w-full">
                 <div class="flex flex-row justify-center items-center gap-[16px]">
-                    <img src="./assets/icons/Group 1.svg" alt="Play button" class="size-[34px]">
+                    <img src="./assets/icons/Group 1.svg" alt="Play button" class="size-[34px] cursor-pointer">
 
                     <div class="flex flex-col items-start justify-center gap-[2px]">
-                        <h5 class="text-[#020D37] font-medium text-[14px]">
+                        <h5 class="text-[#020D37] font-medium text-[14px] xl:text-[16px]">
                             Sound Name
                         </h5>
 
@@ -241,20 +245,20 @@
                 </p>
 
                 <div class="flex flex-row items-center justify-center gap-[10px]">
-                    <img src="./assets/icons/icon (1).svg" class="hidden md:flex">
-                    <img src="./assets/icons/icon (2).svg">
-                    <img src="./assets/icons/icon (3).svg">
+                    <img src="./assets/icons/icon (1).svg" class="hidden md:flex cursor-pointer">
+                    <img src="./assets/icons/icon (2).svg" class="cursor-pointer">
+                    <img src="./assets/icons/icon (3).svg" class="cursor-pointer">
                 </div>
             </div>
 
-            <div class="bg-[#EEEEEE] h-[1px] w-[648px]"></div>
+            <div class="bg-[#EEEEEE] h-[1px] w-full"></div>
 
             <div class="flex flex-row items-center justify-between gap-[20px] w-full">
                 <div class="flex flex-row justify-center items-center gap-[16px]">
-                    <img src="./assets/icons/Group 1.svg" alt="Play button" class="size-[34px]">
+                    <img src="./assets/icons/Group 1.svg" alt="Play button" class="size-[34px] cursor-pointer">
 
                     <div class="flex flex-col items-start justify-center gap-[2px]">
-                        <h5 class="text-[#020D37] font-medium text-[14px]">
+                        <h5 class="text-[#020D37] font-medium text-[14px] xl:text-[16px]">
                             Sound Name
                         </h5>
 
@@ -273,20 +277,20 @@
                 </p>
 
                 <div class="flex flex-row items-center justify-center gap-[10px]">
-                    <img src="./assets/icons/icon (1).svg" class="hidden md:flex">
-                    <img src="./assets/icons/icon (2).svg">
-                    <img src="./assets/icons/icon (3).svg">
+                    <img src="./assets/icons/icon (1).svg" class="hidden md:flex cursor-pointer">
+                    <img src="./assets/icons/icon (2).svg" class="cursor-pointer">
+                    <img src="./assets/icons/icon (3).svg" class="cursor-pointer">
                 </div>
             </div>
 
-            <div class="bg-[#EEEEEE] h-[1px] w-[648px]"></div>
+            <div class="bg-[#EEEEEE] h-[1px] w-full"></div>
 
             <div class="flex flex-row items-center justify-between gap-[20px] w-full">
                 <div class="flex flex-row justify-center items-center gap-[16px]">
-                    <img src="./assets/icons/Group 1.svg" alt="Play button" class="size-[34px]">
+                    <img src="./assets/icons/Group 1.svg" alt="Play button" class="size-[34px] cursor-pointer">
 
                     <div class="flex flex-col items-start justify-center gap-[2px]">
-                        <h5 class="text-[#020D37] font-medium text-[14px]">
+                        <h5 class="text-[#020D37] font-medium text-[14px] xl:text-[16px]">
                             Sound Name
                         </h5>
 
@@ -305,20 +309,20 @@
                 </p>
 
                 <div class="flex flex-row items-center justify-center gap-[10px]">
-                    <img src="./assets/icons/icon (1).svg" class="hidden md:flex">
-                    <img src="./assets/icons/icon (2).svg">
-                    <img src="./assets/icons/icon (3).svg">
+                    <img src="./assets/icons/icon (1).svg" class="hidden md:flex cursor-pointer">
+                    <img src="./assets/icons/icon (2).svg" class="cursor-pointer">
+                    <img src="./assets/icons/icon (3).svg" class="cursor-pointer">
                 </div>
             </div>
 
-            <div class="bg-[#EEEEEE] h-[1px] w-[648px]"></div>
+            <div class="bg-[#EEEEEE] h-[1px] w-full"></div>
 
             <div class="flex flex-row items-center justify-between gap-[20px] w-full">
                 <div class="flex flex-row justify-center items-center gap-[16px]">
-                    <img src="./assets/icons/Group 1.svg" alt="Play button" class="size-[34px]">
+                    <img src="./assets/icons/Group 1.svg" alt="Play button" class="size-[34px] cursor-pointer">
 
                     <div class="flex flex-col items-start justify-center gap-[2px]">
-                        <h5 class="text-[#020D37] font-medium text-[14px]">
+                        <h5 class="text-[#020D37] font-medium text-[14px] xl:text-[16px]">
                             Sound Name
                         </h5>
 
@@ -337,20 +341,20 @@
                 </p>
 
                 <div class="flex flex-row items-center justify-center gap-[10px]">
-                    <img src="./assets/icons/icon (1).svg" class="hidden md:flex">
-                    <img src="./assets/icons/icon (2).svg">
-                    <img src="./assets/icons/icon (3).svg">
+                    <img src="./assets/icons/icon (1).svg" class="hidden md:flex cursor-pointer">
+                    <img src="./assets/icons/icon (2).svg" class="cursor-pointer">
+                    <img src="./assets/icons/icon (3).svg" class="cursor-pointer">
                 </div>
             </div>
 
-            <div class="bg-[#EEEEEE] h-[1px] w-[648px]"></div>
+            <div class="bg-[#EEEEEE] h-[1px] w-full"></div>
 
             <div class="flex flex-row items-center justify-between gap-[20px] w-full">
                 <div class="flex flex-row justify-center items-center gap-[16px]">
-                    <img src="./assets/icons/Group 1.svg" alt="Play button" class="size-[34px]">
+                    <img src="./assets/icons/Group 1.svg" alt="Play button" class="size-[34px] cursor-pointer">
 
                     <div class="flex flex-col items-start justify-center gap-[2px]">
-                        <h5 class="text-[#020D37] font-medium text-[14px]">
+                        <h5 class="text-[#020D37] font-medium text-[14px] xl:text-[16px]">
                             Sound Name
                         </h5>
 
@@ -369,18 +373,229 @@
                 </p>
 
                 <div class="flex flex-row items-center justify-center gap-[10px]">
-                    <img src="./assets/icons/icon (1).svg" class="hidden md:flex">
-                    <img src="./assets/icons/icon (2).svg">
-                    <img src="./assets/icons/icon (3).svg">
+                    <img src="./assets/icons/icon (1).svg" class="hidden md:flex cursor-pointer">
+                    <img src="./assets/icons/icon (2).svg" class="cursor-pointer">
+                    <img src="./assets/icons/icon (3).svg" class="cursor-pointer">
                 </div>
             </div>
 
-            <div class="bg-[#EEEEEE] h-[1px] w-[648px]"></div>
+            <div class="bg-[#EEEEEE] h-[1px] w-full"></div>
         </div>
 
         <a href="#" class="text-[#0432DF] font-medium text-[14px] underline">
-            See all sound effects
+            See all Sound Effects
         </a>
+    </section>
+
+    <section
+        class="flex flex-col justify-center items-start gap-[25px] my-[50px] mx-[17px] md:my-[50px] md:mx-[60px] xl:my-[80px] xl:mx-[100px]">
+        <h1 class="w-[286px] md:w-full font-bold text-[#020D37] text-left text-[20px] md:text-[24px] xl:text-[28px]">
+            Browser by Category
+        </h1>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 w-full gap-[20px]">
+            <button type="button"
+                class="flex flex-col justify-center items-center relative w-full cursor-pointer group transition-transform duration-300 hover:scale-[1.01]">
+
+                <img src="./assets/images/category 1.png" alt="Category"
+                    class="rounded-[8px] w-full h-[70px] md:h-[90px] xl:h-[117px] object-cover transition-transform duration-300 group-hover:scale-[1.01]">
+
+                <h5
+                    class="absolute text-[#EEEEEE] text-center text-[16px] md:text-[18px] font-semibold transition-all duration-300 group-hover:text-white group-hover:drop-shadow-lg">
+                    Musical
+                </h5>
+            </button>
+
+            <button type="button"
+                class="flex flex-col justify-center items-center relative w-full cursor-pointer group transition-transform duration-300 hover:scale-[1.01]">
+                <img src="./assets/images/category 2.png" alt="Category"
+                    class="rounded-[8px] w-full h-[70px] md:h-[90px] xl:h-[117px] object-cover transition-transform duration-300 group-hover:scale-[1.01]">
+
+                <h5
+                    class="absolute text-[#EEEEEE] text-center text-[16px] md:text-[18px] font-semibold transition-all duration-300 group-hover:text-white group-hover:drop-shadow-lg">
+                    Industrial
+                </h5>
+            </button>
+
+            <button type="button"
+                class="flex flex-col justify-center items-center relative w-full cursor-pointer group transition-transform duration-300 hover:scale-[1.01]">
+                <img src="./assets/images/category 3.png" alt="Category"
+                    class="rounded-[8px] w-full h-[70px] md:h-[90px] xl:h-[117px] object-cover transition-transform duration-300 group-hover:scale-[1.01]">
+
+                <h5
+                    class="absolute text-[#EEEEEE] text-center text-[16px] md:text-[18px] font-semibold transition-all duration-300 group-hover:text-white group-hover:drop-shadow-lg">
+                    Movie Sounds
+                </h5>
+            </button>
+
+            <button type="button"
+                class="flex flex-col justify-center items-center relative w-full cursor-pointer group transition-transform duration-300 hover:scale-[1.01]">
+                <img src="./assets/images/category 4.png" alt="Category"
+                    class="rounded-[8px] w-full h-[70px] md:h-[90px] xl:h-[117px] object-cover transition-transform duration-300 group-hover:scale-[1.01]">
+
+                <h5
+                    class="absolute text-[#EEEEEE] text-center text-[16px] md:text-[18px] font-semibold transition-all duration-300 group-hover:text-white group-hover:drop-shadow-lg">
+                    Animal
+                </h5>
+            </button>
+
+            <button type="button"
+                class="flex flex-col justify-center items-center relative w-full cursor-pointer group transition-transform duration-300 hover:scale-[1.01]">
+                <img src="./assets/images/category 5.png" alt="Category"
+                    class="rounded-[8px] w-full h-[70px] md:h-[90px] xl:h-[117px] object-cover transition-transform duration-300 group-hover:scale-[1.01]">
+
+                <h5
+                    class="absolute text-[#EEEEEE] text-center text-[16px] md:text-[18px] font-semibold transition-all duration-300 group-hover:text-white group-hover:drop-shadow-lg">
+                    Peolpe
+                </h5>
+            </button>
+
+            <button type="button"
+                class="flex flex-col justify-center items-center relative w-full cursor-pointer group transition-transform duration-300 hover:scale-[1.01]">
+                <img src="./assets/images/category 6.png" alt="Category"
+                    class="rounded-[8px] w-full h-[70px] md:h-[90px] xl:h-[117px] object-cover transition-transform duration-300 group-hover:scale-[1.01]">
+
+                <h5
+                    class="absolute text-[#EEEEEE] text-center text-[16px] md:text-[18px] font-semibold transition-all duration-300 group-hover:text-white group-hover:drop-shadow-lg">
+                    Vehicles
+                </h5>
+            </button>
+
+            <button type="button"
+                class="flex flex-col justify-center items-center relative w-full cursor-pointer group transition-transform duration-300 hover:scale-[1.01]">
+                <img src="./assets/images/category 7.png" alt="Category"
+                    class="rounded-[8px] w-full h-[70px] md:h-[90px] xl:h-[117px] object-cover transition-transform duration-300 group-hover:scale-[1.01]">
+
+                <h5
+                    class="absolute text-[#EEEEEE] text-center text-[16px] md:text-[18px] font-semibold transition-all duration-300 group-hover:text-white group-hover:drop-shadow-lg">
+                    Sound Designs
+                </h5>
+            </button>
+
+            <button type="button"
+                class="flex flex-col justify-center items-center relative w-full cursor-pointer group transition-transform duration-300 hover:scale-[1.01]">
+                <img src="./assets/images/category 8.png" alt="Category"
+                    class="rounded-[8px] w-full h-[70px] md:h-[90px] xl:h-[117px] object-cover transition-transform duration-300 group-hover:scale-[1.01]">
+
+                <h5
+                    class="absolute text-[#EEEEEE] text-center text-[16px] md:text-[18px] font-semibold transition-all duration-300 group-hover:text-white group-hover:drop-shadow-lg">
+                    Emergency
+                </h5>
+            </button>
+
+            <button type="button"
+                class="flex flex-col justify-center items-center relative w-full cursor-pointer group transition-transform duration-300 hover:scale-[1.01]">
+                <img src="./assets/images/category 9.png" alt="Category"
+                    class="rounded-[8px] w-full h-[70px] md:h-[90px] xl:h-[117px] object-cover transition-transform duration-300 group-hover:scale-[1.01]">
+
+                <h5
+                    class="absolute text-[#EEEEEE] text-center text-[16px] md:text-[18px] font-semibold transition-all duration-300 group-hover:text-white group-hover:drop-shadow-lg">
+                    Bell
+                </h5>
+            </button>
+
+            <button type="button"
+                class="flex flex-col justify-center items-center relative w-full cursor-pointer group transition-transform duration-300 hover:scale-[1.01]">
+                <img src="./assets/images/category 10.png" alt="Category"
+                    class="rounded-[8px] w-full h-[70px] md:h-[90px] xl:h-[117px] object-cover transition-transform duration-300 group-hover:scale-[1.01]">
+
+                <h5
+                    class="absolute text-[#EEEEEE] text-center text-[16px] md:text-[18px] font-semibold transition-all duration-300 group-hover:text-white group-hover:drop-shadow-lg">
+                    Nature
+                </h5>
+            </button>
+
+            <button type="button"
+                class="flex flex-col justify-center items-center relative w-full cursor-pointer group transition-transform duration-300 hover:scale-[1.01]">
+                <img src="./assets/images/category 11.png" alt="Category"
+                    class="rounded-[8px] w-full h-[70px] md:h-[90px] xl:h-[117px] object-cover transition-transform duration-300 group-hover:scale-[1.01]">
+
+                <h5
+                    class="absolute text-[#EEEEEE] text-center text-[16px] md:text-[18px] font-semibold transition-all duration-300 group-hover:text-white group-hover:drop-shadow-lg">
+                    Cartoon
+                </h5>
+            </button>
+
+            <button type="button"
+                class="flex flex-col justify-center items-center relative w-full cursor-pointer group transition-transform duration-300 hover:scale-[1.01]">
+                <img src="./assets/images/category 12.png" alt="Category"
+                    class="rounded-[8px] w-full h-[70px] md:h-[90px] xl:h-[117px] object-cover transition-transform duration-300 group-hover:scale-[1.01]">
+
+                <h5
+                    class="absolute text-[#EEEEEE] text-center text-[16px] md:text-[18px] font-semibold transition-all duration-300 group-hover:text-white group-hover:drop-shadow-lg">
+                    Horror
+                </h5>
+            </button>
+
+            <a href="#" class="text-[#0432DF] font-medium text-[14px] underline">
+                See all Categories
+            </a>
+        </div>
+    </section>
+
+    <section
+        class="flex flex-col xl:flex-row justify-between items-center xl:items-start gap-[30px] md:gap-[35px] xl:gap-[195px] my-[50px] mx-[17px] md:my-[60px] md:mx-[60px] xl:my-[80px] xl:mx-[100px]">
+
+        <div class="flex flex-col items-center xl:items-start justify-center gap-[10px] md:gap-[17px] xl:w-[550px]">
+            <h5 class="text-[14px] text-[#F59E00] font-semibold">
+                WHY US?
+            </h5>
+
+            <h1
+                class="xl:w-[400px] md:w-full font-bold text-[#020D37] text-center xl:text-left text-[22px] md:text-[26px] xl:text-[28px]">
+                We provide the best quality sound effects without copyright.
+            </h1>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-[30px] md:gap-[55px] px-[37px] md:px-0">
+            <div class="flex flex-col justify-center items-start gap-[6px]">
+                <img src="./assets/icons/icon-primary.svg">
+
+                <h5 class="text-[#020D37] text-[18px] font-semibold">
+                    1,203,322 Customer satisfied
+                </h5>
+
+                <p class="text-[#4C526A] text-[14px] font-medium">
+                    We've helped more than 1 million customers find best sound effects.
+                </p>
+            </div>
+
+            <div class="flex flex-col justify-center items-start gap-[6px]">
+                <img src="./assets/icons/icon-primary (1).svg">
+
+                <h5 class="text-[#020D37] text-[18px] font-semibold">
+                    650,654 Sounds
+                </h5>
+
+                <p class="text-[#4C526A] text-[14px] font-medium">
+                   More than 600 thousand high quality to download. Still counting.
+                </p>
+            </div>
+
+            <div class="flex flex-col justify-center items-start gap-[6px]">
+                <img src="./assets/icons/icon-primary (2).svg">
+
+                <h5 class="text-[#020D37] text-[18px] font-semibold">
+                   Royalty-free
+                </h5>
+
+                <p class="text-[#4C526A] text-[14px] font-medium">
+                   Just download and use the sound for your videos without royalty
+                </p>
+            </div>
+
+            <div class="flex flex-col justify-center items-start gap-[6px]">
+                <img src="./assets/icons/icon-primary (3).svg">
+
+                <h5 class="text-[#020D37] text-[18px] font-semibold">
+                    Provide proper sounds
+                </h5>
+
+                <p class="text-[#4C526A] text-[14px] font-medium">
+                    We just provide sounds with the best quality  for customers
+                </p>
+            </div>
+        </div>
     </section>
 
 </body>
